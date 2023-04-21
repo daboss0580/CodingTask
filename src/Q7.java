@@ -5,10 +5,9 @@ public class Q7 {
 Fibonacci series. 0,1,1,2,3,5,8,13,21,34
          */
 int num1=0, num2=1, total=0;
-        System.out.print(num1+" "+num2+" ");
-        for (int a=2; a<10; a++ ){
+        for (int a=0; a<10; a++ ){
             total=num1+num2;
-            System.out.print(total+" ");
+            System.out.print(num1+" ");
             num1=num2;
             num2=total;
         }
